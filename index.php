@@ -13,6 +13,7 @@ require_once "config.php";
 $sql = "SELECT t.content, t.created_at, u.username FROM tweets t JOIN users u ON t.user_id = u.id ORDER BY t.created_at DESC";
 $tweets = [];
 
+echo('hellos');
 // Execute the query
 if ($result = $mysqli->query($sql)) {
     // Fetch all tweets
