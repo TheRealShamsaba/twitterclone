@@ -1,0 +1,50 @@
+# Arian Twitter Clone
+
+A simple Twitter clone built with PHP, MySQL, JavaScript, HTML, and Bootstrap. This project emulates the basic features of the popular social media platform Twitter.
+
+## Features
+
+- User registration and authentication.
+- Posting tweets.
+- Viewing tweets from all users on the main page.
+- Pagination to navigate through different pages of tweets.
+- Profile page where users can see their tweets.
+- Editing and deleting tweets from the profile page.
+- A search functionality to find specific tweets.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Apache/Nginx web server
+
+### Installation
+
+1. Clone the repository to your local machine or download the zip file.
+2. Import the `twitter_clone.sql` file into your MySQL database to create the necessary tables.
+3. Update the `config.php` file with your database connection details.
+4. Place the project files into your web server's root directory.
+5. Access the project through your web server's URL, typically `http://localhost/` for local development environments.
+
+### Usage
+
+After logging in or registering, users can:
+
+- Post new tweets using the text box on the main page.
+- View tweets from different accounts on the main page.
+- Navigate through different pages of tweets using the pagination controls.
+- Go to their profile to see their tweets and perform edit or delete operations.
+- Use the search bar at the top of the main page to find specific tweets.
+
+## Acknowledgements
+
+- [PHP](https://php.net)
+- [MySQL](https://mysql.com)
+- [Bootstrap](https://getbootstrap.com)
+- [Your favorite plugins/extensions](#)
+- [etc](#)
+
